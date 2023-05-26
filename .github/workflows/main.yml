@@ -5,7 +5,7 @@ on:
     paths: [ hello-world-docker/** ]
   workflow_dispatch:
     inputs:
-      environment:
+      environment: 
         description: 'Environment to deploy to'
         type: environment
         required: true
